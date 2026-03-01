@@ -1,0 +1,9 @@
+.canvas {
+  position: fixed; /* 화면 전체 고정 */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* UI보다 뒤 */
+  pointer-events: none; /* 클릭 이벤트가 UI로 전달되도록 */
+}
